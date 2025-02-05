@@ -5,9 +5,5 @@
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/$1" }
-  ],
-  "env": {
-    "ALLOWED_ORIGINS": "@typesource-allowed-origins",
-    "OPENAI_API_KEY": "@typesource-openai-key"
-  }
+  ]
 } 
