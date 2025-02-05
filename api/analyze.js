@@ -64,4 +64,4 @@ export default async function handler(req, res) {
       message: process.env.NODE_ENV === 'development' ? error.message : 'Internal server error'
     });
   }
-} 
+}
